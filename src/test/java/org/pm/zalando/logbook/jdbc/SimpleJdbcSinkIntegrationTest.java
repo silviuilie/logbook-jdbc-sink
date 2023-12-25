@@ -13,8 +13,6 @@ import java.time.temporal.ChronoUnit;
 import java.util.UUID;
 
 /**
- * TODO : comment !
- *
  * @author silviu ilie
  * @since 0.0.1-SNAPSHOT on logbook-jdbc-sink
  **/

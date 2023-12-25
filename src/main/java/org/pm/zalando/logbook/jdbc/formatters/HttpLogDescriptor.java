@@ -8,8 +8,6 @@ import java.sql.Types;
 import java.time.Instant;
 
 /**
- * TODO : comment !
- *
  * @author silviu ilie
  * @since 0.0.1-SNAPSHOT on logbook-jdbc-sink
  **/

@@ -55,5 +55,5 @@ jobs:
     # - name: publish coverage
       # uses: silviuilie/commit-jacoco-total-to-readme@0.0.1
       # with:
-        readmeFileName: 'README.md'
-        type : 'svg'
+        # readmeFileName: 'README.md'
+        # type : 'svg'

@@ -29,26 +29,7 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
- 
-    - name: svg coverage badge
-      run: |
-         oldCov=$(grep -Po '(?<=aria-label=\"Coverage: ).*?(?=\">)' ./doc/badges/coverage.svg)
-         echo "old coverage $oldCov"
-         echo "get new coverage"
-         totalCov=$(grep -Po '(?<=</package><counter type="INSTRUCTION").*(?=/><counter type="BRANCH")'  target/site/jacoco/jacoco.xml)
-         eval $totalCov
-         total=$((missed+covered))
-         echo "missed : $missed, covered   : $covered, total     : $total"
-         newCov=$(echo "scale=2; ($covered / $total) * 100" | bc)
-         echo " newCov :[$newCov]" 
-         echo " oldCov :[$oldCov]"
-         sed -i "s/$oldCov/$newCov%/g" ./doc/badges/coverage.svg 
-         git config user.name silviuilie
-         git config user.email silviuilie@gmail.com
-         git add ./doc/badges/coverage.svg  
-         git commit -m "coverage update"
-         git push 
-
+  
     # - name: publish coverage
       # uses: silviuilie/commit-jacoco-total-to-readme@0.0.1
       # with:

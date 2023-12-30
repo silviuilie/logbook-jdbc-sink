@@ -34,7 +34,7 @@ jobs:
       env: 
         GITHUB_CONTEXT: ${{ toJson(github) }}   
         run: echo "$GITHUB_CONTEXT"
-      shell: bash
+      run: bash
     # - name: publish coverage
       # uses: silviuilie/commit-jacoco-total-to-readme@0.0.1
       # with:

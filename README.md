@@ -22,7 +22,7 @@ postgress (test container postgres:14.2-alpine) default (LOGGED) http requests t
 |DefaultSink|       1354     |   34.27333                  | 10.000    | 
 |JdbcBatchSink|     1042     |  36.878302             | 10.000    | 
 
- <sup>*</sup> - db time(max-min row sysdate); for batch sink batch size of 1.000 satements
+ <sup>*</sup> - db time(max-min sysdate row); for batch sink batch size of 1.000 satements
  
 
  <!--

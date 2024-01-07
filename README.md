@@ -7,7 +7,21 @@ See [JdbcSink](https://github.com/silviuilie/logbook-jdbc-sink/blob/master/src/m
 
 
  [![java/maven build](https://github.com/silviuilie/logbook-jdbc-sink/actions/workflows/maven.yml/badge.svg)](https://github.com/silviuilie/logbook-jdbc-sink/actions/workflows/maven.yml) 
- 
+
+
+
+ http requests timing in seconds :
+=
+
+postgress (test container postgres:14.2-alpine) default (LOGGED) http requests table
+
+|sink type| total time | db time<sup>*</sup> | http requests/rowcount  
+|-|------------|---------------------|----------| 
+|DefaultSink|  138   |        18.760441              | 1.000      |
+|JdbcBatchSink|  105     |   0.021894                | 1.000     | 
+|DefaultSink|       1354     |   34.27333                  | 10.000    | 
+|JdbcBatchSink|     1042     |  36.878302             | 10.000    | 
+
  <!--
 
  complete commit-jacoco-total-to-readme 

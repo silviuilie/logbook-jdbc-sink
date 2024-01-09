@@ -36,7 +36,7 @@ jobs:
         # run: echo "$GITHUB_CONTEXT"
       # run: bash
     - name: publish coverage
-      uses: silviuilie/commit-jacoco-total-to-readme@0.0.3
+      uses: silviuilie/commit-jacoco-total-to-readme@0.0.4
       with:
         readmeFileName: 'README.md'
         type : 'svg'

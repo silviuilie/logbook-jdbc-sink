@@ -13,7 +13,7 @@ See [JdbcSink](https://github.com/silviuilie/logbook-jdbc-sink/blob/master/src/m
  http requests timing in seconds :
 =
 
-postgress (test container postgres:14.2-alpine) default (LOGGED) http requests table
+postgres (test container postgres:14.2-alpine) default (LOGGED) http requests table
 
 |sink type| total time | db time<sup>*</sup> | http requests/rowcount  
 |-|------------|---------------------|----------| 

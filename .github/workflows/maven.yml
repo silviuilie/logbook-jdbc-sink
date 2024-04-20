@@ -16,7 +16,7 @@ on:
 
 jobs:
   build: 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu:jammy-20230425
 
     steps:
     - uses: actions/checkout@v3

@@ -25,7 +25,9 @@ postgres (test container postgres:14.2-alpine) default (LOGGED) http requests ta
 
  <sup>*</sup> - db time(max-min sysdate row); for batch sink batch size of 1.000 satements
  
-TODO : oracle 19c
+## TODOs 
+ - oracle 19c
+ - 
  <!--
 
  complete commit-jacoco-total-to-readme 

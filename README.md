@@ -27,6 +27,7 @@ postgres (test container postgres:14.2-alpine) default (LOGGED) http requests ta
  
 ## TODOs 
  - oracle 19c
+ - add jmh benchmarks
  - 
  <!--
 

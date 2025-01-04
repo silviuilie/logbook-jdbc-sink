@@ -8,9 +8,7 @@ See [JdbcSink](https://github.com/silviuilie/logbook-jdbc-sink/blob/master/src/m
 
 
  [![java/maven build](https://github.com/silviuilie/logbook-jdbc-sink/actions/workflows/maven.yml/badge.svg)](https://github.com/silviuilie/logbook-jdbc-sink/actions/workflows/maven.yml) ![Coverage Status](./doc/badges/coverage.svg)
-
-TODO: benchmarks
-
+ 
  http requests timing in seconds :
 =
 
@@ -27,7 +25,7 @@ postgres (test container postgres:14.2-alpine) default (LOGGED) http requests ta
  
 ## TODOs 
  - oracle 19c
- - add jmh benchmarks
+ - add jmh benchmarks (see https://gitlab.com/mt4321138/jmh-to-md)
  - 
  <!--
 

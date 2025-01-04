@@ -9,7 +9,7 @@ See [JdbcSink](https://github.com/silviuilie/logbook-jdbc-sink/blob/master/src/m
 
  [![java/maven build](https://github.com/silviuilie/logbook-jdbc-sink/actions/workflows/maven.yml/badge.svg)](https://github.com/silviuilie/logbook-jdbc-sink/actions/workflows/maven.yml) ![Coverage Status](./doc/badges/coverage.svg)
 
-
+TODO: benchmarks
 
  http requests timing in seconds :
 =

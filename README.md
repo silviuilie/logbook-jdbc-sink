@@ -26,8 +26,8 @@ postgres (test container postgres:14.2-alpine) default (LOGGED) http requests ta
 ## TODOs 
  - oracle 19c
  - add jmh benchmarks (see https://gitlab.com/mt4321138/jmh-to-md)
- - 
- <!--
+ 
+<!--
 
  complete commit-jacoco-total-to-readme 
 
